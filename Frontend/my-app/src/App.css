@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Login Page Styles */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Homepage Styles */
+.homepage {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.homepage .services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(25% - 20px);
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card p {
+  color: #555;
+}
+
+/* Chat Page Styles */
+.chat-page {
+  padding: 20px;
+}
+
+.chat-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.fruit-card h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.fruit-card p {
+  color: #555;
+}
+
+/* Translator Page Styles */
+.translator-page {
+  padding: 20px;
+}
+
+.translator-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.translator-form input,
+.translator-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.translator-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.translator-form button:hover {
+  background-color: #0056b3;
+}
+
+/* FAQ Page Styles */
+.faq-page {
+  padding: 20px;
+}
+
+.faq-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.faq-item h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.faq-item p {
+  color: #555;
+}
+
+/* About Page Styles */
+.about-page {
+  padding: 20px;
+}
+
+.about-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
